@@ -1,0 +1,29 @@
+# ---- ModelSim / QuestaSim ----
+work/
+transcript
+*.wlf
+wlft*
+*.vcd
+*.mpf
+*.cr.mti
+vsim.wlf
+modelsim.ini
+
+# ---- Gowin EDA ----
+impl/
+*.gprj.user
+*.runs/
+*.cache/
+*.ipdb
+
+# ---- Editor / backup files ----
+*.bak
+*~
+.vscode/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Personal / scratch (keep out of the public repo) ----
+.agents/
